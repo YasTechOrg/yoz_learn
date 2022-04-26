@@ -1,5 +1,16 @@
 @import url("./fonts.css");
 
+:root {
+    --yoz-blue1: #3D5CAA;
+    --yoz-blue2: #6484D4;
+    --yoz-orange1: #F15A24;
+    --yoz-orange2: #F79520;
+    --yoz-yellow: #F9BC15;
+    --yoz-white: #F1F3F9;
+    --yoz-green: #0FA062;
+    --yoz-red: #0FA062;
+}
+
 body
 {
     font-family: dana, sans-serif!important;
