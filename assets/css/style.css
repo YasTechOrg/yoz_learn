@@ -1,0 +1,36 @@
+@import url("./fonts.css");
+
+body
+{
+    font-family: dana, sans-serif!important;
+}
+
+footer
+{
+    width: 100%;
+    position: relative;
+    border: 1px solid red;
+}
+
+footer > .cover
+{
+    background-color: #557DBF;
+}
+
+footer > .cover > img
+{
+    width: fit-content;
+    margin-bottom: -75.51px;
+}
+
+footer > .copyright
+{
+    padding: 0 20px;
+    text-align: center;
+}
+
+footer > .copyright > p:first-child
+{
+    color: #557DBF;
+    font-size: 20px;
+}
