@@ -244,7 +244,7 @@ section[data-s-2] > .p3 > .ac
     background-image: url("../img/section2_bg2.png");
     background-repeat: no-repeat;
     width: 496px;
-    height: 474px;
+    height: 480px;
     padding: 60px 30px 40px;
     position: relative;
 }
@@ -307,7 +307,7 @@ section[data-s-2] > .p3 > .nac
     background-image: url("../img/section2_bg3.png");
     background-repeat: no-repeat;
     width: 252px;
-    height: 474px;
+    height: 480px;
     padding: 60px 30px 40px;
 }
 
@@ -339,7 +339,7 @@ section[data-s-3]
     background-image: url("../img/section3_bg1.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    padding-bottom: 300px;
+    padding-bottom: 350px;
     border-bottom: 6px solid rgba(61, 92, 170, 0.15);
 }
 
@@ -391,7 +391,7 @@ section[data-s-3] > div:first-child > div
     background-repeat: no-repeat;
     width: 538px;
     height: 315px;
-    margin-top: 300px;
+    margin-top: 250px;
     margin-right: 20px;
 }
 
@@ -439,8 +439,88 @@ section[data-s-3] > div:first-child > div > div > button:hover
 section[data-s-3]  img[alt=google]
 {
 
-    height: 332px;
+    height: 400px;
     width: auto;
-    right: -300px;
-    bottom: -150px;
+    right: -380px;
+    bottom: -200px;
+}
+
+/* SECTION 4 */
+section[data-s-4]
+{
+    margin-top: 50px;
+}
+
+section[data-s-4] > h1
+{
+    font-size: 40px;
+    font-weight: 930;
+    color: var(--yoz-orange1);
+}
+
+section[data-s-4] > p
+{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 300;
+    max-width: 745px;
+    direction: rtl;
+    color: var(--yoz-blue2);
+}
+
+section[data-s-4] > .s1
+{
+    background-image: url("../img/section4_bg1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 95%;
+}
+
+section[data-s-4] > div > .c
+{
+    margin-top: 150px;
+    padding-right: 20px;
+}
+
+section[data-s-4] > div > .c h1
+{
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--yoz-blue1);
+}
+
+section[data-s-4] > div > .c h1 > span
+{
+    color: var(--yoz-orange1);
+}
+
+section[data-s-4] > div > .c p
+{
+    max-width: 450px;
+    direction: rtl;
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--yoz-blue2);
+    text-align: justify;
+}
+
+section[data-s-4] > .s3 > div:last-child > img
+{
+    margin-top: 140px;
+    margin-left: 80px;
+}
+
+section[data-s-4] > .s4 > .c
+{
+    margin-top: 0!important;
+}
+
+section[data-s-4] > .s4 > div:first-child > img
+{
+    margin-right: 80px;
+}
+
+section[data-s-4] > img[alt=bg2]
+{
+    margin-top: 120px;
 }
