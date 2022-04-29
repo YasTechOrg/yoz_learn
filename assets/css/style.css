@@ -593,3 +593,77 @@ section[data-s-6] p
     color: var(--yoz-blue2);
     line-height: 31px;
 }
+
+/* SECTION 7 */
+section[data-s-7]
+{
+    margin-top: 120px;
+}
+
+section[data-s-7] p
+{
+    color: var(--yoz-blue2);
+    font-size: 17px;
+    font-weight: 900;
+    max-width: 522px;
+    text-align: justify;
+    direction: rtl;
+}
+
+section[data-s-7] h1
+{
+    color: var(--yoz-blue2);
+    font-size: 76px;
+    font-weight: 930;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+section[data-s-7] > div > div:last-child
+{
+    padding-bottom: 40px;
+}
+
+/* SECTION 8 */
+section[data-s-8] > div:first-child > div
+{
+    background-image: url("../img/section8_vector2.png");
+    background-repeat: no-repeat;
+    width: 460px;
+    height: 480px;
+    padding: 20px 30px;
+}
+section[data-s-8] > div:first-child > div > img
+{
+    margin-bottom: 30px;
+}
+
+section[data-s-8] > div:first-child > div > input
+{
+    background-color: rgba(221, 230, 245, 0.38);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 60%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+}
+
+section[data-s-8] > div:first-child > div > button
+{
+    background-color:  var(--yoz-blue2);
+    color: white;
+    font-size: 19px;
+    font-weight: 800;
+    border-radius: 10px;
+    padding: 18px 50px;
+    border: 0;
+    outline: 0;
+    margin-top: 10px;
+    transition: 0.4s;
+}
+
+section[data-s-8] > div:first-child > div > button:hover
+{
+    box-shadow: 5px 5px rgba(100, 132, 212, 0.76);
+}
