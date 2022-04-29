@@ -524,3 +524,39 @@ section[data-s-4] > img[alt=bg2]
 {
     margin-top: 120px;
 }
+
+/* SECTION 5 */
+section[data-s-5]
+{
+    border: 1px solid var(--yoz-blue2);
+    margin-top: 20px;
+    max-width: 1270px;
+    border-radius: 15px;
+    padding: 50px 20px 0;
+    margin-bottom: 120px;
+}
+
+section[data-s-5] > div:first-child > h1
+{
+    font-size: 76px;
+    font-weight: 930;
+    margin-right: 30px;
+    color: var(--yoz-blue2);
+}
+
+section[data-s-5] > div:last-child
+{
+    margin-top: 40px;
+    margin-right: 0!important;
+    margin-left: 0!important;
+    margin-bottom: -100px;
+}
+
+section[data-s-5] > div:last-child p
+{
+    font-size: 17px;
+    font-weight: 900;
+    color: var(--yoz-blue2);
+    text-align: justify;
+    direction: rtl;
+}
