@@ -193,6 +193,7 @@ section[data-s-1] img[alt=vector_play]
 section[data-s-2]
 {
     margin-top: 70px;
+    margin-bottom: 200px;
 }
 
 section[data-s-2] > .p1
@@ -238,7 +239,27 @@ section[data-s-2] > .p3 > .ac
     width: 496px;
     height: 474px;
     padding: 60px 30px 40px;
+    position: relative;
+}
 
+section[data-s-2] > .p3 > .ac::before,
+section[data-s-2] > .p3 > .nac::before
+{
+    position: absolute;
+    content: " ";
+    width: 164px;
+    height: 4px;
+    background-color: var(--yoz-green);
+    bottom: -60px;
+    z-index: 999;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+
+section[data-s-2] > .p3 > .nac::before
+{
+    background-color: rgba(61, 92, 170, 0.15);
 }
 
 section[data-s-2] > .p3 > .ac > div:first-child > h5:first-child
