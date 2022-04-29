@@ -560,3 +560,36 @@ section[data-s-5] > div:last-child p
     text-align: justify;
     direction: rtl;
 }
+
+/* SECTION 6 */
+section[data-s-6] > img
+{
+    width: fit-content;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+
+section[data-s-6] > div
+{
+    margin-top: 70px;
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+
+section[data-s-6] h1
+{
+    color: var(--yoz-blue2);
+    font-size: 76px;
+    font-weight: 930;
+}
+
+section[data-s-6] p
+{
+    text-align: justify;
+    direction: rtl;
+    max-width: 580px;
+    font-size: 17px;
+    font-weight: 900;
+    color: var(--yoz-blue2);
+    line-height: 31px;
+}
