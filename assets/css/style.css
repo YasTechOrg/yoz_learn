@@ -667,3 +667,23 @@ section[data-s-8] > div:first-child > div > button:hover
 {
     box-shadow: 5px 5px rgba(100, 132, 212, 0.76);
 }
+
+/* SECTION 9 */
+img[alt=vector_s9]
+{
+    margin-top: 120px;
+}
+
+section[data-s-9] > h1
+{
+    font-size: 46px;
+    font-weight: 930;
+    color: var(--yoz-blue1);
+    margin-top: 40px;
+}
+
+section[data-s-9] > img
+{
+    margin-top: 60px;
+    margin-bottom: 200px;
+}
