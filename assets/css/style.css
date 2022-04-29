@@ -14,34 +14,293 @@
 body
 {
     font-family: dana, sans-serif!important;
+    background-color: var(--yoz-white);
+}
+
+header
+{
+    background-color: white;
+    width: 100%;
+}
+
+header > div, footer > div
+{
+    max-width: 1440px;
+    margin: 0 auto!important;
+}
+
+header > .desktop .navigation > a
+{
+    text-decoration: none;
+    color: var(--yoz-blue1);
+    font-size: 22px;
+    padding: 0 30px;
+    font-weight: 600;
+}
+
+header > .desktop .account > button
+{
+    border-radius: 10px;
+    height: 50px;
+    color: white;
+    border: none;
+    font-weight: 800;
+    font-size: 19px;
+    outline: none;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+header > .desktop .account > button:first-child
+{
+    background-color: var(--yoz-orange1);
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+header > .desktop .account > button:last-child
+{
+    background-color: var(--yoz-blue1);
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 footer
 {
-    width: 100%;
-    position: relative;
-    border: 1px solid red;
-}
-
-footer > .cover
-{
     background-color: #557DBF;
 }
 
-footer > .cover > img
+footer > div > img[alt=bg]
 {
-    width: fit-content;
-    margin-bottom: -75.51px;
+    width: 100%;
+    object-fit: contain;
 }
 
-footer > .copyright
+footer > div > img[alt='logo']
 {
-    padding: 0 20px;
-    text-align: center;
+    top: 8vh;
+    left: 8vh;
 }
 
-footer > .copyright > p:first-child
+footer > div > .location
 {
-    color: #557DBF;
+    font-weight: 600;
     font-size: 20px;
+    color: white;
+    right: 19vh;
+    top: 8vh;
+}
+
+footer > div > .copyright
+{
+    right: 0;
+    left: 0;
+    bottom: 18px;
+    color: var(--yoz-white);
+    font-weight: 600;
+}
+
+footer > div > .copyright > p:first-child
+{
+    font-size: 20px;
+}
+
+footer > div > .copyright > p:last-child
+{
+    font-size: 22px;
+    margin-right: 13px;
+}
+
+footer > div > .contact
+{
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+footer > div > .social1
+{
+    right: 6vh;
+    bottom: 12vh;
+}
+
+footer > div > .contact > p
+{
+    margin-bottom: 15px;
+}
+
+/* SECTION 1 */
+section[data-s-1]
+{
+    background-image: url("../img/section1_bg.jpg");
+    background-repeat: no-repeat;
+    padding: 0 20px;
+}
+
+section[data-s-1] .main_title
+{
+    color: var(--yoz-blue1);
+    font-weight: 1000;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+section[data-s-1] .main_description
+{
+    color: var(--yoz-blue2);
+    font-weight: bold;
+    max-width: 450px;
+    font-size: 20px;
+    line-height: 45px;
+    text-align: justify;
+    direction: rtl;
+}
+
+section[data-s-1] img[alt=vg1]
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+section[data-s-1] img[alt=vg2]
+{
+    margin-top: 30px;
+}
+
+section[data-s-1] div.c1
+{
+    background-image: url("../img/section1_card1.png");
+    height: 160px;
+    width: 545px;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+section[data-s-1] img[alt=vector_play]
+{
+    height: 550px;
+    width: auto;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-20%);
+}
+
+/* SECTION 2 */
+section[data-s-2]
+{
+    margin-top: 70px;
+}
+
+section[data-s-2] > .p1
+{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+section[data-s-2] > .p1 > h3
+{
+    color: var(--yoz-blue1);
+    font-size: 28px;
+    font-weight: 960;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+section[data-s-2] > .p2
+{
+    color: var(--yoz-blue2);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+section[data-s-2] > .p3
+{
+    background-image: url("../img/section2_bg1.png");
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    width: 100%;
+    max-width: 1150px;
+    background-position-x: right;
+}
+section[data-s-2] > .p3 > div
+{
+    margin-right: 50px;
+}
+
+section[data-s-2] > .p3 > .ac
+{
+    background-image: url("../img/section2_bg2.png");
+    background-repeat: no-repeat;
+    width: 496px;
+    height: 474px;
+    padding: 60px 30px 40px;
+
+}
+
+section[data-s-2] > .p3 > .ac > div:first-child > h5:first-child
+{
+    font-size: 43px;
+    color: var(--yoz-blue1);
+    font-weight: bold;
+}
+
+section[data-s-2] > .p3 > .ac > div:first-child > h5:last-child
+{
+    font-size: 24px;
+    color: var(--yoz-blue2);
+    font-weight: bold;
+}
+
+section[data-s-2] > .p3 > .ac > div:last-child > button
+{
+    background-color: var(--yoz-green);
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 20px 60px;
+    border-radius: 15px;
+    margin-top: 30px;
+    transition: 0.4s;
+}
+
+section[data-s-2] > .p3 > .ac > div:last-child > button:hover
+{
+    box-shadow: 5px 5px rgba(122, 193, 112, 0.76);
+}
+
+section[data-s-2] > .p3 > .nac
+{
+    background-image: url("../img/section2_bg3.png");
+    background-repeat: no-repeat;
+    width: 252px;
+    height: 474px;
+    padding: 60px 30px 40px;
+}
+
+section[data-s-2] > .p3 > .nac > img
+{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+}
+
+section[data-s-2] > .p3 > .nac:last-child > img
+{
+    transform: translate(-50%, 0%);
+}
+
+section[data-s-2] > .p3 > .nac > div
+{
+    border: 4px solid rgba(61, 92, 170, 0.15);
+    color: rgba(61, 92, 170, 0.15);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 20px;
+    border-radius: 15px;
 }
