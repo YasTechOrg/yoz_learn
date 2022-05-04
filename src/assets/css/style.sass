@@ -1,0 +1,533 @@
+@import colors
+
+body
+    font-family: dana, sans-serif!important
+    background-color: $yoz-white
+
+header > div, footer > div
+    max-width: 1440px
+    margin: 0 auto!important
+
+section
+    max-width: 1900px
+    margin-right: auto!important
+    margin-left: auto!important
+
+header
+    background-color: white
+    width: 100%
+    
+    > .desktop
+        
+        > .navigation > a
+            text-decoration: none
+            color: $yoz-blue1
+            font-size: 22px
+            padding: 0 30px
+            font-weight: 600
+
+        > .account
+
+            > button
+                border-radius: 10px
+                height: 50px
+                color: white
+                border: none
+                font-weight: 800
+                font-size: 19px
+                outline: none
+                margin: 0 3px
+                cursor: pointer
+
+            > button:first-child
+                background-color: $yoz-orange1
+                padding-left: 32px
+                padding-right: 32px
+
+            > button:last-child
+                background-color: $yoz-blue1
+                padding-left: 15px
+                padding-right: 15px
+
+footer
+    background-color: #557DBF
+
+    > div
+
+        > img[alt=bg]
+            width: 100%
+            object-fit: contain
+
+        > img[alt='logo']
+            top: 8vh
+            left: 8vh
+
+        > .location
+            font-weight: 600
+            font-size: 20px
+            color: white
+            right: 19vh
+            top: 8vh
+
+        > .copyright
+            right: 0
+            left: 0
+            bottom: 18px
+            color: $yoz-white
+            font-weight: 600
+
+            > p:first-child
+                font-size: 20px
+
+            > p:last-child
+                font-size: 22px
+                margin-right: 13px
+
+            > .contact
+                top: 60%
+                left: 50%
+                transform: translate(-50%, -50%)
+                font-weight: 600
+                font-size: 20px
+
+                > p
+                    margin-bottom: 15px
+
+            > .social1
+                right: 6vh
+                bottom: 12vh
+
+/* SECTION 1 */
+section[data-s-1]
+    background-image: url("../img/section1_bg.jpg")
+    background-repeat: no-repeat
+    padding: 0 20px
+
+    .main_title
+        color: $yoz-blue1
+        font-weight: 1000
+        font-size: 50px
+        margin-bottom: 20px
+
+    .main_description
+        color: $yoz-blue2
+        font-weight: bold
+        max-width: 450px
+        font-size: 20px
+        line-height: 45px
+        text-align: justify
+        direction: rtl
+
+    img[alt=vg1]
+        margin-top: 40px
+        margin-bottom: 40px
+        margin-right: 20px
+
+    img[alt=vg2]
+        margin-top: 30px
+
+    div.c1
+        background-image: url("../img/section1_card1.png")
+        height: 160px
+        width: 545px
+        background-repeat: no-repeat
+        margin-top: 50px
+
+    img[alt=vector_play]
+        height: 550px
+        width: auto
+        bottom: 0
+        left: 50%
+        right: 50%
+        transform: translateX(-20%)
+
+/* SECTION 2 */
+section[data-s-2]
+    margin-top: 70px
+    margin-bottom: 200px
+
+    > .p1
+        margin-top: 30px
+        margin-bottom: 15px
+
+        > h3
+            color: $yoz-blue1
+            font-size: 28px
+            font-weight: 960
+            margin-right: 20px
+            margin-bottom: 0
+
+    > .p2
+        color: $yoz-blue2
+        font-size: 28px
+        font-weight: bold
+
+    > .p3
+        background-image: url("../img/section2_bg1.png")
+        background-repeat: no-repeat
+        margin-top: 60px
+        width: 100%
+        max-width: 1150px
+        background-position-x: right
+
+        > div
+            margin-right: 50px
+
+        > .ac
+            background-image: url("../img/section2_bg2.png")
+            background-repeat: no-repeat
+            width: 496px
+            height: 480px
+            padding: 60px 30px 40px
+            position: relative
+
+        > .ac::before,
+        > .nac::before
+            position: absolute
+            content: " "
+            width: 164px
+            height: 4px
+            background-color: $yoz-green
+            bottom: -60px
+            z-index: 999
+            left: 50%
+            right: 50%
+            transform: translateX(-50%)
+
+        > .nac::before
+            background-color: rgba(61, 92, 170, 0.15)
+
+        > .ac
+
+            > div:first-child
+
+                > h5:first-child
+                    font-size: 43px
+                    color: $yoz-blue1
+                    font-weight: bold
+
+                > h5:last-child
+                    font-size: 24px
+                    color: $yoz-blue2
+                    font-weight: bold
+
+            > div:last-child
+
+                > button
+                    background-color: $yoz-green
+                    color: white
+                    border: none
+                    outline: none
+                    font-weight: bold
+                    font-size: 19px
+                    padding: 20px 60px
+                    border-radius: 15px
+                    margin-top: 30px
+                    transition: 0.4s
+
+                > button:hover
+                    box-shadow: 5px 5px rgba(122, 193, 112, 0.76)
+
+        > .nac
+            background-image: url("../img/section2_bg3.png")
+            background-repeat: no-repeat
+            width: 252px
+            height: 480px
+            padding: 60px 30px 40px
+
+            > img
+                left: 50%
+                top: 50%
+                transform: translate(-50%, 50%)
+
+            > div
+                border: 4px solid rgba(61, 92, 170, 0.15)
+                color: rgba(61, 92, 170, 0.15)
+                font-size: 16px
+                font-weight: bold
+                padding: 20px 20px
+                border-radius: 15px
+
+        > .nac:last-child
+
+            > img
+                transform: translate(-50%, 0%)
+
+/* SECTION 3 */
+section[data-s-3]
+    background-image: url("../img/section3_bg1.png")
+    background-repeat: no-repeat
+    background-size: 100%
+    padding-bottom: 350px
+    border-bottom: 6px solid rgba(61, 92, 170, 0.15)
+
+    .t_bar
+        margin-top: 100px
+
+        > h1
+            font-size: 100px
+            font-weight: 930
+            color: $yoz-blue1
+            margin-left: 30px
+
+        > h3
+            font-size: 55px
+            font-weight: 960
+            color: $yoz-blue2
+
+    .d_bar
+        margin-top: 20px
+
+        > h3
+            font-size: 35px
+            font-weight: 930
+
+        > h3:first-child
+            color: $yoz-blue1
+
+        > h3:last-child
+            color: $yoz-blue2
+            margin-left: 10px
+
+    > div:first-child
+
+        > div
+            background-image: url("../img/section3_bg2.png")
+            background-repeat: no-repeat
+            width: 538px
+            height: 315px
+            margin-top: 250px
+            margin-right: 20px
+
+            > p
+                text-align: justify
+                direction: rtl
+                width: 80%
+                font-size: 20px
+                line-height: 32px
+                margin-top: 30px
+                color: black
+
+                > span
+                    font-weight: bold
+                    color: $yoz-green
+
+            > div
+                bottom: -10px
+
+                > button
+                    background-color: $yoz-green
+                    color: white
+                    font-size: 19px
+                    font-weight: 800
+                    transition: 0.4s
+                    border: none
+                    outline: none
+                    padding: 20px 70px
+                    border-radius: 15px
+                    margin-right: 20px
+
+                > button:hover
+                    box-shadow: 5px 5px rgba(122, 193, 112, 0.76)
+
+    img[alt=google]
+        height: 400px
+        width: auto
+        right: -380px
+        bottom: -200px
+
+/* SECTION 4 */
+section[data-s-4]
+    margin-top: 50px
+
+
+    > h1
+        font-size: 40px
+        font-weight: 930
+        color: $yoz-orange1
+
+    > p
+        margin-top: 40px
+        font-size: 30px
+        font-weight: 300
+        max-width: 745px
+        direction: rtl
+        color: $yoz-blue2
+
+    > .s1
+        background-image: url("../img/section4_bg1.png")
+        background-repeat: no-repeat
+        background-position: right
+        background-size: 95%
+
+    > div
+
+        > .c
+            margin-top: 150px
+            padding-right: 20px
+
+            h1
+                font-size: 40px
+                font-weight: 900
+                color: $yoz-blue1
+
+                > span
+                    color: $yoz-orange1
+
+            p
+                max-width: 450px
+                direction: rtl
+                font-size: 19px
+                font-weight: 600
+                color: $yoz-blue2
+                text-align: justify
+
+    > .s3 > div:last-child > img
+        margin-top: 140px
+        margin-left: 80px
+
+    > .s4
+
+        > .c
+            margin-top: 0!important
+
+        > div:first-child > img
+            margin-right: 80px
+
+
+    > img[alt=bg2]
+        margin-top: 120px
+
+
+/* SECTION 5 */
+section[data-s-5]
+    border: 1px solid $yoz-blue2
+    margin-top: 20px
+    max-width: 1270px
+    border-radius: 15px
+    padding: 50px 20px 0
+    margin-bottom: 120px
+
+    > div:first-child > h1
+        font-size: 76px
+        font-weight: 930
+        margin-right: 30px
+        color: $yoz-blue2
+
+    > div:last-child
+        margin-top: 40px
+        margin-right: 0!important
+        margin-left: 0!important
+        margin-bottom: -100px
+
+        p
+            font-size: 17px
+            font-weight: 900
+            color: $yoz-blue2
+            text-align: justify
+            direction: rtl
+
+/* SECTION 6 */
+section[data-s-6]
+
+    > img
+        width: fit-content
+        margin-top: 200px
+        margin-left: 20px
+
+    > div
+        margin-top: 70px
+        margin-right: 0!important
+        margin-left: 0!important
+
+
+    h1
+        color: $yoz-blue2
+        font-size: 76px
+        font-weight: 930
+
+
+    p
+        text-align: justify
+        direction: rtl
+        max-width: 580px
+        font-size: 17px
+        font-weight: 900
+        color: $yoz-blue2
+        line-height: 31px
+
+/* SECTION 7 */
+section[data-s-7]
+    margin-top: 120px
+
+    p
+        color: $yoz-blue2
+        font-size: 17px
+        font-weight: 900
+        max-width: 522px
+        text-align: justify
+        direction: rtl
+
+    h1
+        color: $yoz-blue2
+        font-size: 76px
+        font-weight: 930
+        margin-right: 30px
+        margin-left: 30px
+
+    > div > div:last-child
+        padding-bottom: 40px
+
+/* SECTION 8 */
+section[data-s-8]
+
+    > div:first-child
+
+        > div
+            background-image: url("../img/section8_vector2.png")
+            background-repeat: no-repeat
+            width: 460px
+            height: 480px
+            padding: 20px 30px
+
+            > img
+                margin-bottom: 30px
+
+            > input
+                background-color: rgba(221, 230, 245, 0.38)
+                border-radius: 10px
+                border: none
+                outline: none
+                width: 60%
+                padding: 10px 15px
+                margin-bottom: 15px
+
+            > button
+                background-color:  $yoz-blue2
+                color: white
+                font-size: 19px
+                font-weight: 800
+                border-radius: 10px
+                padding: 18px 50px
+                border: 0
+                outline: 0
+                margin-top: 10px
+                transition: 0.4s
+
+            > button:hover
+
+                box-shadow: 5px 5px rgba(100, 132, 212, 0.76)
+
+/* SECTION 9 */
+img[alt=vector_s9]
+    margin-top: 120px
+
+    > h1
+        font-size: 46px
+        font-weight: 930
+        color: $yoz-blue1
+        margin-top: 40px
+
+    > img
+        margin-top: 60px
+        margin-bottom: 200px
