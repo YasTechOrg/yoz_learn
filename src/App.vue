@@ -2,6 +2,7 @@
 
 // IMPORTS
 import {defineAsyncComponent, ref} from "vue"
+import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 
 // DEFINE COMPONENTS
 const MobileMenu = defineAsyncComponent(() => import("./components/MobileMenu.vue"))
@@ -89,7 +90,18 @@ const isMenuShow = ref(false)
         دیجیتال مارکتینگ، دیزاین ، برنامه نویسی، تولید محتوا ، مدیریت
         <br>ترجمه ، دوبله و توسعه  داده میشود
       </p>
-      <div class="p3 d-flex justify-content-center align-items-center">
+
+      <carousel :items-to-show="1.5">
+        <slide v-for="slide in 10" :key="slide">
+          {{ slide }}
+        </slide>
+
+        <template #addons>
+          <navigation />
+          <pagination />
+        </template>
+      </carousel>
+      <div class="p3 d-none d-flex justify-content-center align-items-center">
         <div class="ac d-flex flex-column justify-content-between">
           <div>
             <h5>مبانی دیجیتال مارکتینگ</h5>
