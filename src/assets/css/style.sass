@@ -110,7 +110,7 @@ section[data-s-1]
 
     img[alt=vector]
         @media screen and (max-width: 520px)
-            height: 35px
+            display: none
 
     .main_title
         color: $yoz-blue1
@@ -125,6 +125,7 @@ section[data-s-1]
 
         @media screen and (max-width: 550px)
             white-space: pre-wrap
+            line-height: 40px
 
         @media screen and (max-width: 520px)
             font-size: 30px
@@ -164,6 +165,9 @@ section[data-s-1]
             padding: 10px
             width: 100%
 
+            img
+                width: 80px
+
     img[alt=vector_play]
         height: 550px
         width: auto
@@ -188,10 +192,17 @@ section[data-s-2]
             margin-right: 20px
             margin-bottom: 0
 
+            @media screen and (max-width: 750px)
+                font-size: 25px
+
     > .p2
         color: $yoz-blue2
         font-size: 28px
         font-weight: bold
+        padding: 0 10px
+
+        @media screen and (max-width: 750px)
+            font-size: 20px
 
     > .p3
         background-image: url("../img/section2_bg1.png")
@@ -201,8 +212,13 @@ section[data-s-2]
         max-width: 1150px
         background-position-x: right
 
+        @media screen and (max-width: 1080px)
+            display: none!important
+
         > div
             margin-right: 50px
+            background-position: center
+            background-size: contain
 
         > .ac
             background-image: url("../img/section2_bg2.png")
@@ -278,6 +294,7 @@ section[data-s-2]
                 font-weight: bold
                 padding: 20px 20px
                 border-radius: 15px
+                white-space: nowrap
 
         > .nac:last-child
 

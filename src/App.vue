@@ -77,6 +77,46 @@ const isMenuShow = ref(false)
         <img src="./assets/img/section1_vg1.png" alt="vg1">
       </div>
     </section>
+
+    <!-- Content Section 2 -->
+    <section data-s-2 class="d-flex flex-column align-items-center">
+      <img src="./assets/img/section2_line1.png" alt="line">
+      <div class="p1 d-flex align-items-center justify-content-center">
+        <h3>دوره ها در چند دسته</h3>
+        <img src="./assets/img/section2_vector1.png" alt="vector">
+      </div>
+      <p class="p2 text-center">
+        دیجیتال مارکتینگ، دیزاین ، برنامه نویسی، تولید محتوا ، مدیریت
+        <br>ترجمه ، دوبله و توسعه  داده میشود
+      </p>
+      <div class="p3 d-flex justify-content-center align-items-center">
+        <div class="ac d-flex flex-column justify-content-between">
+          <div>
+            <h5>مبانی دیجیتال مارکتینگ</h5>
+            <h5>Fundamentals of digital marketing</h5>
+          </div>
+
+          <div class="d-flex flex-column align-items-start">
+            <img src="./assets/img/section2_brand1.png" alt="Google">
+            <button type="button">شروع کن</button>
+          </div>
+        </div>
+
+        <div class="nac position-relative d-flex flex-column justify-content-end">
+          <img src="./assets/img/section2_brand2.png" class="position-absolute" alt="coursera">
+          <div class="text-center">
+            در حال آماده سازی
+          </div>
+        </div>
+
+        <div class="nac position-relative d-flex flex-column justify-content-end">
+          <img src="./assets/img/section2_brand3.png" class="position-absolute" alt="coursera">
+          <div class="text-center">
+            در حال آماده سازی
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
