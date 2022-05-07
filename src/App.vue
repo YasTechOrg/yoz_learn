@@ -12,6 +12,8 @@ const isMenuShow = ref(false)
 
 <template>
   <div id="home">
+
+    <!-- Desktop and Mobile Header -->
     <header>
       <div class="desktop row">
         <div class="col-4 account d-flex justify-content-end align-items-center flex-row-reverse">
@@ -38,7 +40,43 @@ const isMenuShow = ref(false)
       </div>
     </header>
 
+    <!-- Mobile Menu -->
     <MobileMenu :showMenu="isMenuShow" @closeMenu="isMenuShow = false"/>
+
+    <!-- Content Section 1 -->
+    <section data-s-1 class="row position-relative">
+      <img src="./assets/img/section1_vector2.png" class="position-absolute" alt="vector_play">
+      <div class="left col-lg-6 d-flex flex-column align-items-center justify-content-center">
+        <img src="./assets/img/section1_vg2.png" alt="vg2">
+
+        <div class="ic_mobile d-none justify-content-center align-items-stretch">
+          <img src="./assets/img/section1_vg2.png" alt="vg2_mobile">
+          <img src="./assets/img/section1_vector2.png" alt="vector_play_mobile">
+        </div>
+
+        <div class="c1 d-flex justify-content-center align-items-center">
+          <div class="d-flex align-items-center justify-content-evenly w-100">
+            <img src="./assets/img/section1_brand1.png" alt="Google">
+            <img src="./assets/img/section1_brand2.png" alt="Coursera">
+            <img src="./assets/img/section1_brand3.png" alt="Hubspot">
+          </div>
+        </div>
+      </div>
+
+      <div class="right col-lg-6 d-flex flex-column align-items-end justify-content-end">
+        <div class="d-flex justify-content-end">
+          <div class="d-flex flex-column justify-content-center align-items-end">
+            <h1 class="main_title text-end" dir="rtl">اینجا زبان علم فارسیه!</h1>
+            <p class="main_description">ما براتون کار بردی ترین آموزش های بین المللی با  مدرک معتبر از بهترین دانشکاه ها، شرکت ها و پلتفرم های آموزشی مانند COURSERA</p>
+          </div>
+          <div class="ms-3">
+            <img src="./assets/img/section1_vector1.png" alt="vector">
+          </div>
+        </div>
+
+        <img src="./assets/img/section1_vg1.png" alt="vg1">
+      </div>
+    </section>
   </div>
 </template>
 
