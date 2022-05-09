@@ -154,6 +154,84 @@ const isMenuShow = ref(false)
         </div>
       </div>
     </section>
+
+    <section data-s-3 class="row position-relative">
+      <div class="col-md-6 d-flex justify-content-end">
+
+        <div class="position-relative d-flex justify-content-center">
+          <p>
+            با <span>دوره مبانی دیجیتال مارکتینگ</span> ما بر اصول بازاریابی دیجیتال مسلط شوید. ۲۶ ماژول برای کاوش وجود دارد که همگی توسط مربیان <span>Google</span> ایجاد شده‌اند، مملو از تمرین‌های عملی و نمونه‌های واقعی برای کمک به شما برای تبدیل دانش به عمل
+          </p>
+          <div class="position-absolute d-flex justify-content-center align-items-center">
+            <button>
+              اطلاعات بیشتر و ثبت نام
+            </button>
+            <img src="./assets/img/section3_vector1.png" alt="vector">
+          </div>
+          <img src="./assets/img/section3_brand1.png" class="position-absolute" alt="google">
+        </div>
+
+      </div>
+      <div class="col-md-6 d-flex flex-column justify-content-start">
+        <div class="t_bar d-flex justify-content-center align-items-end">
+          <h3>
+            مدرکتو میده
+          </h3>
+          <h1>
+            گوگل
+          </h1>
+        </div>
+
+        <div class="d_bar d-flex justify-content-center align-items-center">
+          <h3>
+            دیجیتال مارکتینگ
+          </h3>
+          <h3>
+            یه قدم جدی به دنیای
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <section data-s-3 class="row position-relative mobile d-none">
+      <div class="col-sm-6 d-flex flex-column justify-content-center align-items-center">
+
+        <div class="cc position-relative d-flex justify-content-center">
+          <p class="mb-0">
+            با <span>دوره مبانی دیجیتال مارکتینگ</span> ما بر اصول بازاریابی دیجیتال مسلط شوید. ۲۶ ماژول برای کاوش وجود دارد که همگی توسط مربیان <span>Google</span> ایجاد شده‌اند، مملو از تمرین‌های عملی و نمونه‌های واقعی برای کمک به شما برای تبدیل دانش به عمل
+          </p>
+        </div>
+
+        <button>
+          اطلاعات بیشتر و ثبت نام
+        </button>
+
+      </div>
+      <div class="col-sm-6 d-flex flex-column justify-content-start">
+        <div class="t_bar d-flex justify-content-center align-items-end">
+          <h3>
+            مدرکتو میده
+          </h3>
+          <h1>
+            گوگل
+          </h1>
+        </div>
+
+        <div class="d_bar d-flex justify-content-center align-items-center">
+          <h3>
+            دیجیتال مارکتینگ
+          </h3>
+          <h3>
+            یه قدم جدی به دنیای
+          </h3>
+        </div>
+
+        <div class="ic_bar d-flex justify-content-center align-items-center">
+          <img src="./assets/img/section3_brand1.png" alt="google">
+          <img src="./assets/img/section3_vector2.png" alt="vector2">
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
