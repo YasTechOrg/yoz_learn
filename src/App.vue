@@ -294,6 +294,105 @@ const isMenuShow = ref(false)
       <img src="./assets/img/section4_bg3.png" alt="bg2"/>
       <img src="./assets/img/section4_vector5.png" class="d-none" alt="bg3"/>
     </section>
+
+    <section data-s-5 class="d-flex flex-column justify-content-center align-items-center">
+      <div class="d-flex justify-content-center align-items-center">
+        <h1 class="text-end">
+          ارائه مدرک بین المللی معتبر
+        </h1>
+        <img src="./assets/img/section5_vector1.png" alt="vector">
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 d-flex flex-column align-items-center justify-content-between">
+          <p class="m-0">
+            یوز لِرن به شما کمک میکنه که به راحتی مدرک بین اللملی معتبر خود را دریافت کنید ، دلیل شما میتونه برای گرفتن مدرک بین المللی  ارتقاء سطح دانش شخصی ،مهاجرت ، و یا حتی تحصیلات تکمیلی برای ادامه تحصیل در خارج از کشور باشد ولی خبر خوش اینه که حتی اگر جزو این دسته از افراد هم نباشید میتونید با مدارک معتبر بین المللی در داخل ایران  به کار در یک شرکت حرفه ای مشغول بشید
+          </p>
+
+          <img src="./assets/img/section5_vector3.png" alt="vector">
+        </div>
+        <div class="col-md-7">
+          <img src="./assets/img/section5_vector2.png" alt="certificate">
+        </div>
+      </div>
+    </section>
+
+    <section data-s-5 class="mobile d-none">
+      <img src="./assets/img/section5_bg1.png" class="w-100" alt="bg">
+    </section>
+
+    <section data-s-6 class="d-flex flex-column align-items-center">
+      <img src="./assets/img/section6_vector1.png" alt="vector">
+      <div class="row">
+        <div class="col-sm-6 d-flex flex-column align-items-end">
+          <h1>
+            فرصت شغلی
+          </h1>
+          <p>
+            یوز لِرن به شما کمک میکنه که به راحتی مدرک بین اللملی معتبر خود را دریافت کنید ، دلیل شما میتونه برای گرفتن مدرک بین المللی  ارتقاء سطح دانش شخصی ،مهاجرت ، و یا حتی تحصیلات تکمیلی برای ادامه تحصیل در خارج از کشور باشد ولی خبر خوش اینه که حتی اگر جزو این دسته از افراد هم نباشید میتونید با مدارک معتبر بین المللی در داخل ایران  به کار در یک شرکت حرفه ای مشغول بشید
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <img src="./assets/img/section6_vector2.png" alt="vector">
+        </div>
+      </div>
+    </section>
+
+    <section data-s-7 class="d-flex flex-column align-items-center">
+      <div class="row m-0 w-100">
+        <div class="col-sm-6 d-flex flex-column align-items-end">
+          <img src="./assets/img/section7_vector1.png" alt="vector1">
+          <p>یوز لِرن به شما کمک میکنه که به راحتی مدرک بین اللملی معتبر خود را دریافت کنید ، دلیل شما میتونه برای گرفتن مدرک بین المللی  ارتقاء سطح دانش شخصی ،مهاجرت ، و یا حتی تحصیلات تکمیلی برای ادامه تحصیل در خارج از کشور باشد ولی خبر خوش اینه که حتی اگر جزو این دسته از افراد هم نباشید میتونید با مدارک معتبر بین المللی در داخل ایران  به کار در یک شرکت حرفه ای مشغول بشید</p>
+        </div>
+        <div class="col-sm-6 d-flex justify-content-start align-items-end">
+          <h1 class="mb-0 text-end">پرداختش با ما</h1>
+          <img src="./assets/img/section5_vector1.png" alt="vector">
+        </div>
+      </div>
+    </section>
+
+    <section data-s-8 class="row m-0">
+      <div class="col-md-5 d-flex justify-content-end">
+        <div>
+          <img src="./assets/img/section8_vector3.png" alt="brands">
+
+          <input type="text">
+          <input type="text">
+          <input type="text">
+
+          <button type="button" class="d-block">
+            ارسال
+          </button>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <img src="./assets/img/section8_vector1.png" alt="vector">
+      </div>
+    </section>
+
+    <section data-s-8 class="mobile d-none">
+      <div>
+        <img src="./assets/img/section8_vector4.png" alt="brands">
+
+        <label>
+          <input type="text">
+          <span>نام و نام خانوادگی</span>
+        </label>
+        <label>
+          <input type="text">
+          <span>ایمیل</span>
+        </label>
+        <label>
+          <input type="text">
+          <span>لینک آموزش</span>
+        </label>
+
+        <button type="button" class="d-block">
+          ارسال
+        </button>
+      </div>
+    </section>
+
   </div>
 </template>
 
