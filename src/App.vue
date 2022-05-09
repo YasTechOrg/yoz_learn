@@ -402,6 +402,53 @@ const isMenuShow = ref(false)
       <img src="./assets/img/section9_vector3.png" class="d-none mobile" alt="vector">
     </section>
 
+    <footer class="d-flex position-relative">
+      <img src="./assets/img/footer_instagram.png" class="position-absolute" alt="instagram">
+      <div class="position-relative d-flex flex-column justify-content-between align-items-center">
+        <div class="row m-0 w-100">
+          <div class="col-5">
+            <img src="./assets/img/footer.png" alt="YozLearn">
+          </div>
+          <div class="col-2 contact d-flex justify-content-center align-items-start">
+            <div class="text-white text-center">
+              <p>تماس با پشتیبانی</p>
+              <p>09120000000</p>
+              <p>AAAAA@YOZLEARN.IR</p>
+            </div>
+          </div>
+          <div class="location col-5 d-flex justify-content-end align-items-start">
+            <p class="mb-0">تهران ، کارخانه نوآوری ، سوله هفت و هشت</p>
+          </div>
+        </div>
+        <div class="copyright d-flex justify-content-center align-items-center flex-row-reverse">
+          <p class="mb-0">تمامی حقوق برای توسعه دهنده محفوظ است</p>
+          <p class="mb-0">YOZTECH.IR</p>
+        </div>
+      </div>
+    </footer>
+
+    <footer class="mobile d-flex flex-column justify-content-center align-items-center">
+      <div class="l d-flex justify-content-end align-items-center">
+        <img src="./assets/img/footer.png" alt="YozLearn">
+      </div>
+      <div class="instagram d-flex justify-content-start align-items-center">
+        <img src="./assets/img/footer_instagram.png" alt="instagram">
+      </div>
+      <div class="contact d-flex justify-content-end align-items-center">
+        <div class="d-flex flex-column justify-content-center align-items-end">
+          <p class="t">تهران ، کارخانه نوآوری ، سوله هفت و هشت</p>
+          <div class="text-white text-end">
+            <p>تماس با پشتیبانی</p>
+            <p>09120000000</p>
+            <p>AAAAA@YOZLEARN.IR</p>
+          </div>
+        </div>
+      </div>
+      <div class="copyright d-flex justify-content-center align-items-center flex-row-reverse">
+        <p class="mb-0">تمامی حقوق برای توسعه دهنده محفوظ است</p>
+        <p class="mb-0">YOZTECH.IR</p>
+      </div>
+    </footer>
   </div>
 </template>
 

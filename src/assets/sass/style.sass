@@ -68,6 +68,91 @@ header
                 padding-left: 15px
                 padding-right: 15px
 
+footer.mobile
+    @media screen and (max-width: 870px)
+        display: block!important
+
+    background-image: url("../img/footer_bg_mobile.png")
+    background-repeat: no-repeat
+    background-size: cover
+    padding: 20px
+
+    > div.l
+        @media screen and (max-width: 500px)
+            > img
+                width: 120px!important
+
+    > div.instagram
+        padding-left: 12%
+        padding-top: 30px
+
+    > div.contact
+        padding-right: 18%
+        padding-top: 60px
+
+        p
+            color: white
+            font-size: 15px
+            font-weight: 800
+
+    > div.copyright
+        color: white
+        font-weight: 600
+        padding-bottom: 10px
+        padding-top: 100px
+
+        > p:first-child
+            font-size: 20px
+
+        > p:last-child
+            font-size: 22px
+            margin-right: 13px
+
+
+footer:not(.mobile)
+    background-color: #557DBF
+    margin-top: 150px
+    @media screen and (max-width: 870px)
+        display: none!important
+
+    > div
+        background-image: url("../img/footer_bg.png")
+        background-repeat: no-repeat
+        background-position: center
+        max-width: 1438px
+        height: 425px
+        width: 100%
+        padding: 0 20px
+
+        .contact
+            font-weight: 600
+            font-size: 20px
+            padding-top: 180px
+
+        .location
+            font-weight: 600
+            font-size: 20px
+            color: white
+            padding-right: 160px
+            padding-top: 60px
+
+        .copyright
+            color: white
+            font-weight: 600
+            padding-bottom: 10px
+
+            > p:first-child
+                font-size: 20px
+
+            > p:last-child
+                font-size: 22px
+                margin-right: 13px
+
+    img[alt=instagram]
+        right: 15%
+        bottom: 20%
+        z-index: 999
+
 /* SECTION 1 */
 section[data-s-1]
     background-image: url("../img/section1_bg.jpg")
@@ -681,7 +766,7 @@ section[data-s-7]
 /* SECTION 8 */
 section[data-s-8].mobile
     padding: 20px
-    @media screen and (max-width: 1000px)
+    @media screen and (max-width: 1360px)
         display: block!important
 
     > div
@@ -731,7 +816,7 @@ section[data-s-8].mobile
             box-shadow: 5px 5px rgba(100, 132, 212, 0.76)
 
 section[data-s-8]:not(.mobile)
-    @media screen and (max-width: 1000px)
+    @media screen and (max-width: 1360px)
         display: none!important
 
     > div:first-child
