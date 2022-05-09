@@ -50,7 +50,7 @@ const isMenuShow = ref(false)
       <div class="left col-lg-6 d-flex flex-column align-items-center justify-content-center">
         <img src="./assets/img/section1_vg2.png" alt="vg2">
 
-        <div class="ic_mobile d-none justify-content-center align-items-stretch">
+        <div class="ic_mobile d-none justify-content-center">
           <img src="./assets/img/section1_vg2.png" alt="vg2_mobile">
           <img src="./assets/img/section1_vector2.png" alt="vector_play_mobile">
         </div>
@@ -81,7 +81,7 @@ const isMenuShow = ref(false)
 
     <!-- Content Section 2 -->
     <section data-s-2 class="d-flex flex-column align-items-center">
-      <img src="./assets/img/section2_line1.png" alt="line">
+<!--      <img src="./assets/img/section2_line1.png" alt="line">-->
       <div class="p1 d-flex align-items-center justify-content-center">
         <h3>دوره ها در چند دسته</h3>
         <img src="./assets/img/section2_vector1.png" alt="vector">
@@ -91,18 +91,32 @@ const isMenuShow = ref(false)
         <br>ترجمه ، دوبله و توسعه  داده میشود
       </p>
 
-      <div class="p4">
+      <div class="p4 d-none">
         <carousel :items-to-show="1" :wrap-around="true">
-          <slide class="ac">
-            hi
+          <slide class="ac d-flex flex-column justify-content-between">
+            <div>
+              <h5>مبانی دیجیتال مارکتینگ</h5>
+              <h5>Fundamentals of digital marketing</h5>
+            </div>
+
+            <div class="d-flex flex-column align-items-center">
+              <img src="./assets/img/section2_brand1_mobile.png" alt="Google">
+              <button type="button">شروع کن</button>
+            </div>
           </slide>
 
-          <slide class="nac">
-            hi
+          <slide class="nac position-relative d-flex flex-column justify-content-end">
+            <img src="./assets/img/section2_brand2.png" class="position-absolute" alt="coursera">
+            <div class="text-center">
+              در حال آماده سازی
+            </div>
           </slide>
 
-          <slide class="nac">
-            hi
+          <slide class="nac position-relative d-flex flex-column justify-content-end">
+            <img src="./assets/img/section2_brand3.png" class="position-absolute" alt="coursera">
+            <div class="text-center">
+              در حال آماده سازی
+            </div>
           </slide>
 
           <template #addons>
@@ -112,7 +126,7 @@ const isMenuShow = ref(false)
         </carousel>
       </div>
 
-      <div class="p3 d-none d-flex justify-content-center align-items-center">
+      <div class="p3  d-flex justify-content-center align-items-center">
         <div class="ac d-flex flex-column justify-content-between">
           <div>
             <h5>مبانی دیجیتال مارکتینگ</h5>

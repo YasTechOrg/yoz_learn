@@ -6,43 +6,160 @@ section[data-s-2]
   > .p4
     width: 100%
     max-width: 540px
-
-    .carousel__item
-      height: 100%
-      width: 100%
-      background-color: var(--vc-clr-primary)
-      color:  var(--vc-clr-white)
-      font-size: 20px
-      border-radius: 8px
-      display: flex
-      justify-content: center
-      align-items: center
+    margin-top: 40px
+    padding: 0 50px
 
     .carousel__slide
       height: 400px
-      width: 100%
-      background-image: url("../../img/section2_bg2_mobile.png")
+      width: 100% !important
       background-size: contain
       background-position: center
-      position: relative
+      position: relative!important
       background-repeat: no-repeat
+      margin: auto
 
-    .carousel__slide.ac::before,
-    .carousel__slide.nac::before
+    .carousel__track
+      padding-bottom: 60px
+
+      @media screen and (max-width: 450px)
+        padding-bottom: 30px
+
+    .ac
+      background-image: url("../../img/section2_bg2_mobile.png")
+      padding: 50px 30px 40px
+      position: relative
+
+      @media screen and (max-width: 450px)
+        justify-content: center!important
+
+      > div:first-child
+
+        > h5:first-child
+          font-size: 31px
+          color: $yoz-blue1
+          font-weight: 800
+
+          @media screen and (max-width: 450px)
+            font-size: 25px
+
+          @media screen and (max-width: 400px)
+            font-size: 20px
+
+        > h5:last-child
+          font-size: 15px
+          color: $yoz-blue2
+          font-weight: bold
+          text-align: left
+
+      > div:last-child
+
+        > img
+          height: 108px
+
+          @media screen and (max-width: 450px)
+            height: 80px
+            margin-top: 10px
+
+        > button
+          background-color: $yoz-green
+          color: white
+          border: none
+          outline: none
+          font-weight: bold
+          font-size: 19px
+          padding: 25px 60px
+          border-radius: 15px
+          margin-top: 20px
+          transition: 0.4s
+
+          @media screen and (max-width: 450px)
+            padding: 18px 50px
+
+        > button:hover
+          box-shadow: 5px 5px rgba(122, 193, 112, 0.76)
+
+    .nac
+      padding: 50px 30px 40px
+      position: relative
+      background-image: url("../../img/section2_bg3_mobile.png")
+
+      > img
+        left: 50%
+        top: 50%
+        transform: translate(-50%, 50%)
+
+      > div
+        border: 4px solid rgba(61, 92, 170, 0.15)
+        color: rgba(61, 92, 170, 0.15)
+        font-size: 16px
+        font-weight: bold
+        padding: 20px 20px
+        border-radius: 15px
+        white-space: nowrap
+
+    .nac:last-child
+
+      > img
+        transform: translate(-50%, 0%)
+
+    .ac::before,
+    .nac::before
       position: absolute
       content: " "
       width: 164px
       height: 4px
       background-color: $yoz-green
       bottom: -60px
-      z-index: 999
+      z-index: 99999!important
       left: 50%
       right: 50%
       transform: translateX(-50%)
 
-    .carousel__slide.nac::before
+      @media screen and (max-width: 450px)
+        bottom: -30px
+
+    .carousel__pagination
+      margin-top: 30px
+
+    .nac::before
       background-color: rgba(61, 92, 170, 0.15)
 
     .carousel__prev, .carousel__next
-      box-sizing: content-box
-      border: 5px solid white
+      box-sizing: border-box
+      border-radius: unset
+      background-color: unset
+      background-repeat: no-repeat
+      background-position: center
+      height: 44px
+      width: 25px
+
+      > *
+        display: none
+
+    .carousel__next
+      background-image: url("../../img/carousel_arrow_right.png")
+      right: -30px
+      transform: translate(50%, -120%)
+
+    .carousel__prev
+      background-image: url("../../img/carousel_arrow_left.png")
+      left: -30px
+      transform: translate(-50%, -120%)
+
+    .carousel__pagination
+      padding-left: 0
+
+    .carousel__pagination-button--active, .carousel__pagination-button
+      padding: 0
+      background-color: unset
+      height: 14px
+      width: 16px
+      background-repeat: no-repeat
+      background-position: center
+      transition: 0.2s
+
+    .carousel__pagination-button--active
+      background-image: url("../../img/carousel_active.png")
+
+    .carousel__pagination-button:not(.carousel__pagination-button--active)
+      background-image: url("../../img/carousel_not_active.png")
