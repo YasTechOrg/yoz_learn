@@ -91,16 +91,27 @@ const isMenuShow = ref(false)
         <br>ترجمه ، دوبله و توسعه  داده میشود
       </p>
 
-      <carousel :items-to-show="1.5">
-        <slide v-for="slide in 10" :key="slide">
-          {{ slide }}
-        </slide>
+      <div class="p4">
+        <carousel :items-to-show="1" :wrap-around="true">
+          <slide class="ac">
+            hi
+          </slide>
 
-        <template #addons>
-          <navigation />
-          <pagination />
-        </template>
-      </carousel>
+          <slide class="nac">
+            hi
+          </slide>
+
+          <slide class="nac">
+            hi
+          </slide>
+
+          <template #addons>
+            <navigation />
+            <pagination />
+          </template>
+        </carousel>
+      </div>
+
       <div class="p3 d-none d-flex justify-content-center align-items-center">
         <div class="ac d-flex flex-column justify-content-between">
           <div>
@@ -132,7 +143,8 @@ const isMenuShow = ref(false)
   </div>
 </template>
 
-<style src="./assets/css/style.sass" lang="sass"></style>
+<style src="./assets/sass/style.sass" lang="sass"></style>
+<style src="./assets/sass/carousel/carousel_home1.sass" lang="sass"></style>
 <style lang="sass">
 // FONTS
 @font-face

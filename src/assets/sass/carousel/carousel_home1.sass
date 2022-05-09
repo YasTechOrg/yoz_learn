@@ -1,0 +1,48 @@
+@import ../colors
+
+// CAROUSEL ( HOME 1 )
+section[data-s-2]
+
+  > .p4
+    width: 100%
+    max-width: 540px
+
+    .carousel__item
+      height: 100%
+      width: 100%
+      background-color: var(--vc-clr-primary)
+      color:  var(--vc-clr-white)
+      font-size: 20px
+      border-radius: 8px
+      display: flex
+      justify-content: center
+      align-items: center
+
+    .carousel__slide
+      height: 400px
+      width: 100%
+      background-image: url("../../img/section2_bg2_mobile.png")
+      background-size: contain
+      background-position: center
+      position: relative
+      background-repeat: no-repeat
+
+    .carousel__slide.ac::before,
+    .carousel__slide.nac::before
+      position: absolute
+      content: " "
+      width: 164px
+      height: 4px
+      background-color: $yoz-green
+      bottom: -60px
+      z-index: 999
+      left: 50%
+      right: 50%
+      transform: translateX(-50%)
+
+    .carousel__slide.nac::before
+      background-color: rgba(61, 92, 170, 0.15)
+
+    .carousel__prev, .carousel__next
+      box-sizing: content-box
+      border: 5px solid white

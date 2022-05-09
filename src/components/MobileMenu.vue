@@ -17,7 +17,7 @@ defineProps<{
 </template>
 
 <style lang="sass">
-@import ../assets/css/colors
+@import "../assets/sass/colors"
 
 .mobileMenu:not(.showMenu)
   z-index: -300
