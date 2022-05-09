@@ -316,9 +316,6 @@ section[data-s-2]
 
 /* SECTION 3 */
 section[data-s-3]
-    background-image: url("../img/section3_bg1.png")
-    background-repeat: no-repeat
-    background-size: 100%
     padding-bottom: 350px
     border-bottom: 6px solid rgba(61, 92, 170, 0.15)
 
@@ -330,34 +327,39 @@ section[data-s-3]
             font-weight: 930
             color: $yoz-blue1
             margin-left: 30px
+            white-space: nowrap
 
         > h3
             font-size: 55px
             font-weight: 960
             color: $yoz-blue2
+            white-space: nowrap
 
     .d_bar
         margin-top: 20px
 
         > h3
             font-size: 35px
+            white-space: nowrap
             font-weight: 930
 
         > h3:first-child
             color: $yoz-blue1
+            white-space: nowrap
 
         > h3:last-child
+            white-space: nowrap
             color: $yoz-blue2
             margin-left: 10px
 
-    > div:first-child
+    > div.col-md-6:first-child
 
         > div
             background-image: url("../img/section3_bg2.png")
             background-repeat: no-repeat
             width: 538px
             height: 315px
-            margin-top: 250px
+            margin-bottom: 250px
             margin-right: 20px
 
             > p
@@ -391,11 +393,9 @@ section[data-s-3]
                 > button:hover
                     box-shadow: 5px 5px rgba(122, 193, 112, 0.76)
 
-    img[alt=google]
-        height: 400px
-        width: auto
-        right: -380px
-        bottom: -200px
+    img[alt=bg]
+        width: 100%
+        z-index: -9
 
 /* SECTION 4 */
 section[data-s-4]
