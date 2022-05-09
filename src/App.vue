@@ -393,6 +393,15 @@ const isMenuShow = ref(false)
       </div>
     </section>
 
+    <img src="./assets/img/section9_vector1.png" class="w-100" alt="vector_s9">
+
+    <section data-s-9 class="d-flex flex-column justify-content-center align-items-center">
+      <h1>حامیان یوزتک</h1>
+
+      <img src="./assets/img/section9_vector2.png" alt="vector">
+      <img src="./assets/img/section9_vector3.png" class="d-none mobile" alt="vector">
+    </section>
+
   </div>
 </template>
 
