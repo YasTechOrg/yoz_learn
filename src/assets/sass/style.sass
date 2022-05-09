@@ -486,6 +486,9 @@ section[data-s-3]:not(.mobile)
 section[data-s-4]
     margin-top: 50px
 
+    > img[alt=title]
+        @media screen and (max-width: 770px)
+            height: 88px
 
     > h1
         font-size: 40px
@@ -500,11 +503,19 @@ section[data-s-4]
         direction: rtl
         color: $yoz-blue2
 
+        @media screen and (max-width: 770px)
+            font-size: 20px
+            text-align: center
+            padding: 0 10px
+
     > .s1
         background-image: url("../img/section4_bg1.png")
         background-repeat: no-repeat
         background-position: right
         background-size: 95%
+
+    > .s2
+        margin-top: 150px!important
 
     > div
 
@@ -517,6 +528,9 @@ section[data-s-4]
                 font-weight: 900
                 color: $yoz-blue1
 
+                @media screen and (max-width: 770px)
+                    font-size: 22px
+
                 > span
                     color: $yoz-orange1
 
@@ -527,12 +541,29 @@ section[data-s-4]
                 font-weight: 600
                 color: $yoz-blue2
                 text-align: justify
+                @media screen and (max-width: 770px)
+                    font-size: 16px
+                    padding: 0 10px
 
-    > .s3 > div:last-child > img
-        margin-top: 140px
-        margin-left: 80px
+        .iim
+            @media screen and (max-width: 770px)
+                justify-content: center!important
+                align-items: center!important
 
-    > .s4
+                img
+                    max-height: 110px
+                    margin-left: 10px!important
+                    margin-right: 10px!important
+
+    > .s1 > div:last-child > img
+        margin-top: 100px!important
+
+    > .s3 > div:last-child, > .s1 > div:last-child
+        > img
+            margin-top: 140px
+            margin-left: 80px
+
+    > .s4, > .s2
 
         > .c
             margin-top: 0!important
@@ -543,6 +574,14 @@ section[data-s-4]
 
     > img[alt=bg2]
         margin-top: 120px
+        @media screen and (max-width: 770px)
+            display: none!important
+
+
+    > img[alt=bg3]
+        margin-top: 40px
+        @media screen and (max-width: 770px)
+            display: block!important
 
 
 /* SECTION 5 */
